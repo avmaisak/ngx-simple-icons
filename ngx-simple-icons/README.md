@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-npm i ngx-simple-icons --save-dev
+npm i ngx-simple-icons --save
 ```
 
 ## Usage
@@ -23,8 +23,8 @@ import { activision, adobexd } from 'ngx-simple-icons';
 ### Use method pick for using selected icons
 
 ```typescript
-import { 
-  NgxSimpleIconsModule, 
+import {
+  NgxSimpleIconsModule,
   activision,
   adobexd,
 } from 'ngx-simple-icons';
