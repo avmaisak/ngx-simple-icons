@@ -1,0 +1,142 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": ".",
+  "projects": {
+    "ngx-simple-icons": {
+      "projectType": "library",
+      "root": "ngx-simple-icons",
+      "sourceRoot": "ngx-simple-icons/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "ngx-simple-icons/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "ngx-simple-icons/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "ngx-simple-icons/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "ngx-simple-icons/src/test.ts",
+            "tsConfig": "ngx-simple-icons/tsconfig.spec.json",
+            "karmaConfig": "ngx-simple-icons/karma.conf.js"
+          }
+        }
+      }
+    },
+    "ngx-simple-icons-demo": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        },
+        "@schematics/angular:application": {
+          "strict": true
+        }
+      },
+      "root": "ngx-simple-icons-demo",
+      "sourceRoot": "ngx-simple-icons-demo/src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/ngx-simple-icons-demo",
+            "index": "ngx-simple-icons-demo/src/index.html",
+            "main": "ngx-simple-icons-demo/src/main.ts",
+            "polyfills": "ngx-simple-icons-demo/src/polyfills.ts",
+            "tsConfig": "ngx-simple-icons-demo/tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              "ngx-simple-icons-demo/src/favicon.ico",
+              "ngx-simple-icons-demo/src/assets"
+            ],
+            "styles": [
+              "ngx-simple-icons-demo/src/styles.scss"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "fileReplacements": [
+                {
+                  "replace": "ngx-simple-icons-demo/src/environments/environment.ts",
+                  "with": "ngx-simple-icons-demo/src/environments/environment.prod.ts"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+              "browserTarget": "ngx-simple-icons-demo:build:production"
+            },
+            "development": {
+              "browserTarget": "ngx-simple-icons-demo:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "ngx-simple-icons-demo:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "ngx-simple-icons-demo/src/test.ts",
+            "polyfills": "ngx-simple-icons-demo/src/polyfills.ts",
+            "tsConfig": "ngx-simple-icons-demo/tsconfig.spec.json",
+            "karmaConfig": "ngx-simple-icons-demo/karma.conf.js",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              "ngx-simple-icons-demo/src/favicon.ico",
+              "ngx-simple-icons-demo/src/assets"
+            ],
+            "styles": [
+              "ngx-simple-icons-demo/src/styles.scss"
+            ],
+            "scripts": []
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "ngx-simple-icons"
+}
