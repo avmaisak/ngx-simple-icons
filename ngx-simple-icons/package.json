@@ -1,6 +1,21 @@
 {
   "name": "ngx-simple-icons",
-  "version": "1.0.2",
+  "description": "SVG icons for popular brands https://simpleicons.org",
+  "homepage": "https://simpleicons.org",
+  "version": "1.0.3",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avmaisak/ngx-simple-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/avmaisak/ngx-simple-icons/issues"
+  },
+  "author": "Simple Icons Collaborators",
+  "license": "CC0-1.0",
+  "keywords": [
+    "svg",
+    "icons"
+  ],
   "peerDependencies": {
     "@angular/common": "^13.1.0",
     "@angular/core": "^13.1.0"
