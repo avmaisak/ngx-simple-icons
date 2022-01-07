@@ -688,6 +688,7 @@ export { funimation } from './funimation';
 export { furaffinity } from './furaffinity';
 export { furrynetwork } from './furrynetwork';
 export { futurelearn } from './futurelearn';
+export { g2 } from './g2';
 export { g2a } from './g2a';
 export { gameandwatch } from './gameandwatch';
 export { gamejolt } from './gamejolt';
