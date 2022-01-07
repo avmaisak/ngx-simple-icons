@@ -688,6 +688,7 @@ import { funimation } from './funimation';
 import { furaffinity } from './furaffinity';
 import { furrynetwork } from './furrynetwork';
 import { futurelearn } from './futurelearn';
+import { g2 } from './g2';
 import { g2a } from './g2a';
 import { gameandwatch } from './gameandwatch';
 import { gamejolt } from './gamejolt';

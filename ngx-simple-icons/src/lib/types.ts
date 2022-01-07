@@ -688,6 +688,7 @@ export type IconName = 'icon_1001tracklists' |
 'furaffinity' |
 'furrynetwork' |
 'futurelearn' |
+'g2' |
 'g2a' |
 'gameandwatch' |
 'gamejolt' |

@@ -689,6 +689,7 @@ export enum IconNameEnum {
   furaffinity = 'furaffinity',
   furrynetwork = 'furrynetwork',
   futurelearn = 'futurelearn',
+  g2 = 'g2',
   g2a = 'g2a',
   gameandwatch = 'gameandwatch',
   gamejolt = 'gamejolt',
