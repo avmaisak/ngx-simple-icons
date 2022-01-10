@@ -187,6 +187,7 @@ export type IconName = 'icon_1001tracklists' |
 'atari' |
 'atlassian' |
 'atom' |
+'auchan' |
 'audacity' |
 'audi' |
 'audible' |
@@ -620,6 +621,7 @@ export type IconName = 'icon_1001tracklists' |
 'fdroid' |
 'feathub' |
 'fedex' |
+'fedora' |
 'feedly' |
 'ferrari' |
 'ferrarinv' |
@@ -1091,6 +1093,7 @@ export type IconName = 'icon_1001tracklists' |
 'maas' |
 'macos' |
 'macys' |
+'magasinsu' |
 'magento' |
 'magisk' |
 'mailchimp' |
