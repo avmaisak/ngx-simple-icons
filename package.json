@@ -7,7 +7,8 @@
     "build": "ng build",
     "build:demo": "ng build --project ngx-simple-icons-demo --delete-output-path --named-chunks --optimization --build-optimizer --common-chunk --aot --extract-licenses --output-hashing=all --configuration production",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "lint": "ng lint"
   },
   "private": true,
   "dependencies": {
@@ -27,13 +28,21 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~13.1.2",
+    "@angular-eslint/builder": "13.0.1",
+    "@angular-eslint/eslint-plugin": "13.0.1",
+    "@angular-eslint/eslint-plugin-template": "13.0.1",
+    "@angular-eslint/schematics": "13.0.1",
+    "@angular-eslint/template-parser": "13.0.1",
     "@angular/cli": "~13.1.2",
     "@angular/compiler-cli": "~13.1.1",
     "@types/jasmine": "~3.10.3",
     "@types/node": "^17.0.8",
+    "@typescript-eslint/eslint-plugin": "5.3.0",
+    "@typescript-eslint/parser": "5.3.0",
     "change-gen": "^1.0.6",
+    "eslint": "^8.2.0",
     "jasmine-core": "~4.0.0",
-    "karma": "~6.3.9",
+    "karma": "~6.3.10",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage": "~2.1.0",
     "karma-jasmine": "~4.0.1",
