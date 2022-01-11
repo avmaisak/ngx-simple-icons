@@ -1191,6 +1191,7 @@ import { mojangstudios } from './mojangstudios';
 import { moleculer } from './moleculer';
 import { momenteo } from './momenteo';
 import { monero } from './monero';
+import { moneygram } from './moneygram';
 import { mongodb } from './mongodb';
 import { monkeytie } from './monkeytie';
 import { monster } from './monster';

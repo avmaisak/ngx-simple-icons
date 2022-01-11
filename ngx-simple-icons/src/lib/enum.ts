@@ -1192,6 +1192,7 @@ export enum IconNameEnum {
   moleculer = 'moleculer',
   momenteo = 'momenteo',
   monero = 'monero',
+  moneygram = 'moneygram',
   mongodb = 'mongodb',
   monkeytie = 'monkeytie',
   monster = 'monster',
