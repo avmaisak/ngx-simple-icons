@@ -1191,6 +1191,7 @@ export type IconName = 'icon_1001tracklists' |
 'moleculer' |
 'momenteo' |
 'monero' |
+'moneygram' |
 'mongodb' |
 'monkeytie' |
 'monster' |

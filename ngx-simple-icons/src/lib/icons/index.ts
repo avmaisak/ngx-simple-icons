@@ -1191,6 +1191,7 @@ export { mojangstudios } from './mojangstudios';
 export { moleculer } from './moleculer';
 export { momenteo } from './momenteo';
 export { monero } from './monero';
+export { moneygram } from './moneygram';
 export { mongodb } from './mongodb';
 export { monkeytie } from './monkeytie';
 export { monster } from './monster';
