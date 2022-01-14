@@ -2,7 +2,7 @@
   "name": "ngx-simple-icons",
   "description": "SVG icons for popular brands https://simpleicons.org",
   "homepage": "https://simpleicons.org",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/avmaisak/ngx-simple-icons.git"

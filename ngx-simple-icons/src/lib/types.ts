@@ -66,6 +66,7 @@ export type IconName = 'icon_1001tracklists' |
 'airplayvideo' |
 'airtable' |
 'alacritty' |
+'albertheijn' |
 'aldinord' |
 'aldisud' |
 'alfaromeo' |
@@ -454,6 +455,7 @@ export type IconName = 'icon_1001tracklists' |
 'daimler' |
 'darkreader' |
 'dart' |
+'darty' |
 'daserste' |
 'dash' |
 'dashlane' |
@@ -512,6 +514,7 @@ export type IconName = 'icon_1001tracklists' |
 'django' |
 'dlib' |
 'dlna' |
+'dm' |
 'docker' |
 'docusign' |
 'dogecoin' |
@@ -1044,6 +1047,7 @@ export type IconName = 'icon_1001tracklists' |
 'lemmy' |
 'lenovo' |
 'lerna' |
+'leroymerlin' |
 'less' |
 'letsencrypt' |
 'letterboxd' |
@@ -1197,6 +1201,7 @@ export type IconName = 'icon_1001tracklists' |
 'monster' |
 'monzo' |
 'moo' |
+'morrisons' |
 'moscowmetro' |
 'motorola' |
 'mozilla' |
@@ -1257,6 +1262,7 @@ export type IconName = 'icon_1001tracklists' |
 'nodemon' |
 'nodered' |
 'nokia' |
+'norco' |
 'nordvpn' |
 'norwegian' |
 'notepadplusplus' |
@@ -1394,6 +1400,7 @@ export type IconName = 'icon_1001tracklists' |
 'pioneerdj' |
 'pivotaltracker' |
 'piwigo' |
+'pix' |
 'pixabay' |
 'pixiv' |
 'planet' |
@@ -1527,6 +1534,7 @@ export type IconName = 'icon_1001tracklists' |
 'rakuten' |
 'ram' |
 'rancher' |
+'rarible' |
 'raspberrypi' |
 'razer' |
 'razorpay' |
@@ -1617,6 +1625,7 @@ export type IconName = 'icon_1001tracklists' |
 'sap' |
 'sass' |
 'sat1' |
+'saturn' |
 'saucelabs' |
 'scala' |
 'scaleway' |
@@ -1987,6 +1996,7 @@ export type IconName = 'icon_1001tracklists' |
 'vim' |
 'vimeo' |
 'vimeolivestream' |
+'virgin' |
 'virtualbox' |
 'virustotal' |
 'visa' |
