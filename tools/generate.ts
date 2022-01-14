@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 
 const CHARSET = 'utf-8';
-const SOURCE_DIR = '../simple-icons/icons';
+const SOURCE_DIR = './simple-icons/icons';
 const DESTINATION_DIR = 'ngx-simple-icons/src/lib/icons'
 const ICON_TEMPLATE = fs.readFileSync('tools/icon.tmpl', CHARSET);
 
