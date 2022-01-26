@@ -599,6 +599,7 @@ export type IconName = 'icon_1001tracklists' |
 'evernote' |
 'exercism' |
 'exordo' |
+'exoscale' |
 'expensify' |
 'expertsexchange' |
 'expo' |
@@ -1027,6 +1028,7 @@ export type IconName = 'icon_1001tracklists' |
 'kuaishou' |
 'kubernetes' |
 'kubuntu' |
+'kuma' |
 'kyocera' |
 'labview' |
 'lada' |
@@ -1198,6 +1200,7 @@ export type IconName = 'icon_1001tracklists' |
 'moneygram' |
 'mongodb' |
 'monkeytie' |
+'monoprix' |
 'monster' |
 'monzo' |
 'moo' |
@@ -1210,6 +1213,7 @@ export type IconName = 'icon_1001tracklists' |
 'mtr' |
 'mui' |
 'mulesoft' |
+'muller' |
 'mumble' |
 'musescore' |
 'musicbrainz' |
@@ -1234,6 +1238,7 @@ export type IconName = 'icon_1001tracklists' |
 'neovim' |
 'nestjs' |
 'netapp' |
+'netbsd' |
 'netflix' |
 'netlify' |
 'nette' |
@@ -1317,6 +1322,7 @@ export type IconName = 'icon_1001tracklists' |
 'openlayers' |
 'openmined' |
 'opennebula' |
+'opensea' |
 'opensourceinitiative' |
 'openssl' |
 'openstack' |
@@ -1985,6 +1991,7 @@ export type IconName = 'icon_1001tracklists' |
 'vectorworks' |
 'veeam' |
 'veepee' |
+'velog' |
 'venmo' |
 'vercel' |
 'verdaccio' |
@@ -2014,6 +2021,7 @@ export type IconName = 'icon_1001tracklists' |
 'vonage' |
 'vox' |
 'vsco' |
+'vtex' |
 'vuedotjs' |
 'vuetify' |
 'vulkan' |
