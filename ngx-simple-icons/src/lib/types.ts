@@ -1344,6 +1344,7 @@ export type IconName = 'icon_1001tracklists' |
 'oshkosh' |
 'osmc' |
 'osu' |
+'otto' |
 'overcast' |
 'overleaf' |
 'ovh' |
@@ -1600,6 +1601,7 @@ export type IconName = 'icon_1001tracklists' |
 'rootsbedrock' |
 'rootssage' |
 'ros' |
+'rossmann' |
 'rotaryinternational' |
 'rottentomatoes' |
 'roundcube' |
