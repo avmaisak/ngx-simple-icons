@@ -407,6 +407,7 @@ export type IconName = 'icon_1001tracklists' |
 'commonworkflowlanguage' |
 'composer' |
 'comsol' |
+'conan' |
 'concourse' |
 'condaforge' |
 'conekta' |
@@ -1570,6 +1571,7 @@ export type IconName = 'icon_1001tracklists' |
 'renpy' |
 'renren' |
 'replit' |
+'rescript' |
 'rescuetime' |
 'researchgate' |
 'resurrectionremixos' |
@@ -1847,6 +1849,7 @@ export type IconName = 'icon_1001tracklists' |
 'target' |
 'tasmota' |
 'tata' |
+'tauri' |
 'taxbuzz' |
 'teamcity' |
 'teamspeak' |
@@ -1911,6 +1914,7 @@ export type IconName = 'icon_1001tracklists' |
 'toyota' |
 'tplink' |
 'tqdm' |
+'traefikmesh' |
 'trainerroad' |
 'trakt' |
 'transferwise' |
