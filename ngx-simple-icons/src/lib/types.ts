@@ -433,6 +433,7 @@ export type IconName = 'icon_1001tracklists' |
 'craftcms' |
 'createreactapp' |
 'creativecommons' |
+'credly' |
 'crehana' |
 'crowdin' |
 'crowdsource' |
@@ -1068,6 +1069,7 @@ export type IconName = 'icon_1001tracklists' |
 'line' |
 'lineageos' |
 'linkedin' |
+'linkfire' |
 'linktree' |
 'linode' |
 'linux' |
@@ -1411,6 +1413,7 @@ export type IconName = 'icon_1001tracklists' |
 'pix' |
 'pixabay' |
 'pixiv' |
+'pkgsrc' |
 'planet' |
 'plangrid' |
 'platformdotsh' |
