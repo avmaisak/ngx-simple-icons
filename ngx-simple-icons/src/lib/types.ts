@@ -420,6 +420,7 @@ export type IconName = 'icon_1001tracklists' |
 'convertio' |
 'cookiecutter' |
 'coop' |
+'cora' |
 'coronaengine' |
 'coronarenderer' |
 'corsair' |
@@ -658,6 +659,7 @@ export type IconName = 'icon_1001tracklists' |
 'flipkart' |
 'floatplane' |
 'flood' |
+'fluentbit' |
 'fluentd' |
 'flutter' |
 'flyway' |
@@ -921,6 +923,7 @@ export type IconName = 'icon_1001tracklists' |
 'intellijidea' |
 'interactjs' |
 'intercom' |
+'intermarche' |
 'internetarchive' |
 'internetexplorer' |
 'intigriti' |
@@ -1045,6 +1048,7 @@ export type IconName = 'icon_1001tracklists' |
 'latex' |
 'launchpad' |
 'lbry' |
+'leaderprice' |
 'leaflet' |
 'leanpub' |
 'leetcode' |
@@ -1399,6 +1403,7 @@ export type IconName = 'icon_1001tracklists' |
 'php' |
 'phpmyadmin' |
 'phpstorm' |
+'picardsurgeles' |
 'picartodottv' |
 'picnic' |
 'picpay' |
@@ -1552,6 +1557,7 @@ export type IconName = 'icon_1001tracklists' |
 'react' |
 'reactivex' |
 'reactos' |
+'reactquery' |
 'reactrouter' |
 'reacttable' |
 'readthedocs' |
@@ -1725,6 +1731,7 @@ export type IconName = 'icon_1001tracklists' |
 'snowflake' |
 'snowpack' |
 'snyk' |
+'socialblade' |
 'society6' |
 'socketdotio' |
 'sogou' |
@@ -1863,6 +1870,7 @@ export type IconName = 'icon_1001tracklists' |
 'tele5' |
 'telegram' |
 'telegraph' |
+'temporal' |
 'tencentqq' |
 'tensorflow' |
 'teradata' |
