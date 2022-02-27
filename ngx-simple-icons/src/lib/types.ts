@@ -1552,6 +1552,7 @@ export type IconName = 'icon_1001tracklists' |
 'rancher' |
 'rarible' |
 'raspberrypi' |
+'ray' |
 'razer' |
 'razorpay' |
 'react' |
@@ -1580,6 +1581,7 @@ export type IconName = 'icon_1001tracklists' |
 'renpy' |
 'renren' |
 'replit' |
+'republicofgamers' |
 'rescript' |
 'rescuetime' |
 'researchgate' |
@@ -1603,6 +1605,7 @@ export type IconName = 'icon_1001tracklists' |
 'roblox' |
 'robotframework' |
 'rocketdotchat' |
+'rocksdb' |
 'rockylinux' |
 'roku' |
 'rollsroyce' |
@@ -1783,6 +1786,7 @@ export type IconName = 'icon_1001tracklists' |
 'squarespace' |
 'ssrn' |
 'stackbit' |
+'stackedit' |
 'stackexchange' |
 'stackoverflow' |
 'stackpath' |
