@@ -1,11 +1,12 @@
-import * as fs from 'fs';
+const fs = require("fs-extra");
+const lodash = require("lodash");
 
 const CHARSET = 'utf-8';
 const SOURCE_DIR = './simple-icons/icons';
 const DESTINATION_DIR = 'ngx-simple-icons/src/lib/icons'
 const ICON_TEMPLATE = fs.readFileSync('tools/icon.tmpl', CHARSET);
 
-fs.readdir(SOURCE_DIR, (err: any, files: string[]) => {
+fs.readdir(SOURCE_DIR, (err, files) => {
 
   fs.appendFileSync(
     `${DESTINATION_DIR}/../types.ts`,
@@ -16,6 +17,11 @@ fs.readdir(SOURCE_DIR, (err: any, files: string[]) => {
     `${DESTINATION_DIR}/../enum.ts`,
     'export enum IconNameEnum {\r\n'
   );
+
+  if (!files) {
+    console.error('NO files presented.');
+    return;
+  }
 
 
   files.forEach((file, index) => {

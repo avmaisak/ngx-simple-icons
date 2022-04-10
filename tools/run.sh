@@ -10,5 +10,5 @@ echo 'receiving icons...'
 git clone https://github.com/simple-icons/simple-icons.git
 
 echo 'generating ...'
-ts-node tools/generate.ts
+node tools/generate.js
 echo 'generation complete!'

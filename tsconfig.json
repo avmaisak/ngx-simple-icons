@@ -1,39 +1,40 @@
-/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "noImplicitOverride": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
+    "emitDecoratorMetadata": true,
     "sourceMap": true,
-    "paths": {
-      "ngx-simple-icons": [
-        "dist/ngx-simple-icons/ngx-simple-icons",
-        "dist/ngx-simple-icons"
-      ]
-    },
-    "esModuleInterop": true,
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "esnext",
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es2017",
-    "module": "CommonJS",
+    "target": "es2015",
+    "resolveJsonModule": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
     "lib": [
-      "es2020",
+      "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-bootstrap-icons-lib": [
+        "dist/ngx-bootstrap-icons-lib"
+      ],
+      "ngx-bootstrap-icons-lib/*": [
+        "dist/ngx-bootstrap-icons-lib/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
-    "enableI18nLegacyMessageIdFormat": false,
+    "enableIvy": true,
+    "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true,
-    "strictInputAccessModifiers": true,
-    "strictTemplates": true
+    "disableTypeScriptVersionCheck": true
   }
 }

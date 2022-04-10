@@ -65,6 +65,7 @@ export type IconName = 'icon_1001tracklists' |
 'airplayaudio' |
 'airplayvideo' |
 'airtable' |
+'ajv' |
 'alacritty' |
 'albertheijn' |
 'aldinord' |
@@ -166,6 +167,7 @@ export type IconName = 'icon_1001tracklists' |
 'archlinux' |
 'ardour' |
 'arduino' |
+'argos' |
 'arkecosystem' |
 'arlo' |
 'arm' |
@@ -206,6 +208,7 @@ export type IconName = 'icon_1001tracklists' |
 'awesomelists' |
 'awesomewm' |
 'awsamplify' |
+'awslambda' |
 'azureartifacts' |
 'azuredataexplorer' |
 'azuredevops' |
@@ -334,6 +337,7 @@ export type IconName = 'icon_1001tracklists' |
 'checkio' |
 'checkmarx' |
 'chef' |
+'chemex' |
 'chevrolet' |
 'chinaeasternairlines' |
 'chinasouthernairlines' |
@@ -341,6 +345,7 @@ export type IconName = 'icon_1001tracklists' |
 'chromecast' |
 'chrysler' |
 'chupachups' |
+'cilium' |
 'cinema4d' |
 'circle' |
 'circleci' |
@@ -352,6 +357,7 @@ export type IconName = 'icon_1001tracklists' |
 'civo' |
 'ckeditor4' |
 'claris' |
+'clickhouse' |
 'clickup' |
 'clion' |
 'cliqz' |
@@ -403,6 +409,7 @@ export type IconName = 'icon_1001tracklists' |
 'cognizant' |
 'coil' |
 'coinbase' |
+'coinmarketcap' |
 'commerzbank' |
 'commonworkflowlanguage' |
 'composer' |
@@ -417,6 +424,7 @@ export type IconName = 'icon_1001tracklists' |
 'contactlesspayment' |
 'containerd' |
 'contentful' |
+'conventionalcommits' |
 'convertio' |
 'cookiecutter' |
 'coop' |
@@ -432,6 +440,7 @@ export type IconName = 'icon_1001tracklists' |
 'cpanel' |
 'cplusplus' |
 'craftcms' |
+'cratedb' |
 'createreactapp' |
 'creativecommons' |
 'credly' |
@@ -462,10 +471,12 @@ export type IconName = 'icon_1001tracklists' |
 'daserste' |
 'dash' |
 'dashlane' |
+'dask' |
 'dassaultsystemes' |
 'databricks' |
 'datacamp' |
 'datadog' |
+'datadotai' |
 'datagrip' |
 'dataiku' |
 'datastax' |
@@ -519,6 +530,7 @@ export type IconName = 'icon_1001tracklists' |
 'dlna' |
 'dm' |
 'docker' |
+'docsdotrs' |
 'docusign' |
 'dogecoin' |
 'dolby' |
@@ -527,6 +539,7 @@ export type IconName = 'icon_1001tracklists' |
 'douban' |
 'doubanread' |
 'dpd' |
+'dragonframe' |
 'draugiemdotlv' |
 'dribbble' |
 'drone' |
@@ -539,6 +552,7 @@ export type IconName = 'icon_1001tracklists' |
 'dungeonsanddragons' |
 'dunked' |
 'duolingo' |
+'dvc' |
 'dwavesystems' |
 'dwm' |
 'dynamics365' |
@@ -737,6 +751,7 @@ export type IconName = 'icon_1001tracklists' |
 'globus' |
 'gmail' |
 'gnome' |
+'gnometerminal' |
 'gnu' |
 'gnubash' |
 'gnuemacs' |
@@ -795,6 +810,7 @@ export type IconName = 'icon_1001tracklists' |
 'gradle' |
 'grafana' |
 'grammarly' |
+'grandfrais' |
 'graphql' |
 'grav' |
 'gravatar' |
@@ -835,6 +851,7 @@ export type IconName = 'icon_1001tracklists' |
 'haxe' |
 'hbo' |
 'hcl' |
+'headlessui' |
 'headspace' |
 'hellofresh' |
 'hellyhansen' |
@@ -883,6 +900,7 @@ export type IconName = 'icon_1001tracklists' |
 'iata' |
 'ibeacon' |
 'ibm' |
+'ibmcloud' |
 'ibmwatson' |
 'iceland' |
 'icinga' |
@@ -931,6 +949,7 @@ export type IconName = 'icon_1001tracklists' |
 'invoiceninja' |
 'iobroker' |
 'ionic' |
+'ionos' |
 'ios' |
 'iota' |
 'ipfs' |
@@ -983,12 +1002,14 @@ export type IconName = 'icon_1001tracklists' |
 'jupyter' |
 'justeat' |
 'justgiving' |
+'k3s' |
 'kaggle' |
 'kahoot' |
 'kaios' |
 'kakao' |
 'kakaotalk' |
 'kalilinux' |
+'kaniko' |
 'karlsruherverkehrsverbund' |
 'kasasmart' |
 'kashflow' |
@@ -1025,6 +1046,8 @@ export type IconName = 'icon_1001tracklists' |
 'kofax' |
 'kofi' |
 'komoot' |
+'konami' |
+'kong' |
 'kongregate' |
 'konva' |
 'kotlin' |
@@ -1054,6 +1077,7 @@ export type IconName = 'icon_1001tracklists' |
 'leetcode' |
 'lemmy' |
 'lenovo' |
+'lens' |
 'lerna' |
 'leroymerlin' |
 'less' |
@@ -1073,6 +1097,7 @@ export type IconName = 'icon_1001tracklists' |
 'line' |
 'lineageos' |
 'linkedin' |
+'linkerd' |
 'linkfire' |
 'linktree' |
 'linode' |
@@ -1081,6 +1106,7 @@ export type IconName = 'icon_1001tracklists' |
 'linuxfoundation' |
 'linuxmint' |
 'lionair' |
+'liquibase' |
 'lit' |
 'litecoin' |
 'livechat' |
@@ -1101,6 +1127,7 @@ export type IconName = 'icon_1001tracklists' |
 'lubuntu' |
 'lufthansa' |
 'lumen' |
+'lunacy' |
 'lydia' |
 'lyft' |
 'maas' |
@@ -1131,6 +1158,7 @@ export type IconName = 'icon_1001tracklists' |
 'materialdesignicons' |
 'matomo' |
 'matrix' |
+'matterdotjs' |
 'mattermost' |
 'matternet' |
 'max' |
@@ -1310,6 +1338,7 @@ export type IconName = 'icon_1001tracklists' |
 'okta' |
 'oneplus' |
 'onlyfans' |
+'onlyoffice' |
 'onnx' |
 'onstar' |
 'opel' |
@@ -1330,6 +1359,7 @@ export type IconName = 'icon_1001tracklists' |
 'openmined' |
 'opennebula' |
 'opensea' |
+'opensearch' |
 'opensourceinitiative' |
 'openssl' |
 'openstack' |
@@ -1338,6 +1368,7 @@ export type IconName = 'icon_1001tracklists' |
 'opentelemetry' |
 'openvpn' |
 'openwrt' |
+'openzfs' |
 'opera' |
 'opnsense' |
 'opsgenie' |
@@ -1391,6 +1422,7 @@ export type IconName = 'icon_1001tracklists' |
 'perforce' |
 'perl' |
 'personio' |
+'petsathome' |
 'peugeot' |
 'pexels' |
 'pfsense' |
@@ -1446,6 +1478,7 @@ export type IconName = 'icon_1001tracklists' |
 'pocketcasts' |
 'podcastaddict' |
 'podman' |
+'poetry' |
 'pointy' |
 'pokemon' |
 'polkadot' |
@@ -1466,6 +1499,7 @@ export type IconName = 'icon_1001tracklists' |
 'powershell' |
 'powervirtualagents' |
 'prdotco' |
+'preact' |
 'precommit' |
 'premierleague' |
 'prestashop' |
@@ -1493,6 +1527,7 @@ export type IconName = 'icon_1001tracklists' |
 'protools' |
 'protractor' |
 'proxmox' |
+'pubg' |
 'publons' |
 'pubmed' |
 'pug' |
@@ -1637,6 +1672,7 @@ export type IconName = 'icon_1001tracklists' |
 'sabanci' |
 'safari' |
 'sahibinden' |
+'sailfishos' |
 'salesforce' |
 'saltproject' |
 'samsung' |
@@ -1704,6 +1740,7 @@ export type IconName = 'icon_1001tracklists' |
 'simkl' |
 'simpleanalytics' |
 'simpleicons' |
+'simplenote' |
 'sinaweibo' |
 'singlestore' |
 'sitepoint' |
@@ -1751,6 +1788,7 @@ export type IconName = 'icon_1001tracklists' |
 'sonicwall' |
 'sonos' |
 'sony' |
+'soundcharts' |
 'soundcloud' |
 'sourceengine' |
 'sourceforge' |
@@ -1776,9 +1814,9 @@ export type IconName = 'icon_1001tracklists' |
 'spreadshirt' |
 'spreaker' |
 'spring' |
+'spring_creators' |
 'springboot' |
 'springsecurity' |
-'spring_creators' |
 'spyderide' |
 'sqlite' |
 'square' |
@@ -1794,6 +1832,7 @@ export type IconName = 'icon_1001tracklists' |
 'stadia' |
 'staffbase' |
 'starbucks' |
+'stardock' |
 'starlingbank' |
 'starship' |
 'startrek' |
@@ -1833,6 +1872,7 @@ export type IconName = 'icon_1001tracklists' |
 'suckless' |
 'sumologic' |
 'supabase' |
+'supermicro' |
 'superuser' |
 'surveymonkey' |
 'suse' |
@@ -1956,6 +1996,7 @@ export type IconName = 'icon_1001tracklists' |
 'tui' |
 'tumblr' |
 'tunein' |
+'turborepo' |
 'turbosquid' |
 'turkishairlines' |
 'tutanota' |
@@ -2018,6 +2059,7 @@ export type IconName = 'icon_1001tracklists' |
 'verdaccio' |
 'veritas' |
 'verizon' |
+'vexxhost' |
 'vfairs' |
 'viadeo' |
 'viber' |
@@ -2145,15 +2187,20 @@ export type IconName = 'icon_1001tracklists' |
 'ycombinator' |
 'yelp' |
 'yoast' |
+'yolo' |
 'yourtraveldottv' |
 'youtube' |
 'youtubegaming' |
 'youtubemusic' |
 'youtubestudio' |
 'youtubetv' |
+'yubico' |
+'zabka' |
 'zalando' |
 'zalo' |
 'zapier' |
+'zara' |
+'zazzle' |
 'zcash' |
 'zdf' |
 'zelle' |

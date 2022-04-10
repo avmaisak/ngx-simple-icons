@@ -4,9 +4,24 @@
   "compilerOptions": {
     "outDir": "../out-tsc/lib",
     "declaration": true,
-    "declarationMap": true,
     "inlineSources": true,
-    "types": []
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "types": [],
+    "lib": [
+      "dom",
+      "es2018"
+    ]
+  },
+  "angularCompilerOptions": {
+    "annotateForClosureCompiler": true,
+    "skipTemplateCodegen": true,
+    "disableTypeScriptVersionCheck": true,
+    "strictMetadataEmit": true,
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true,
+    "enableResourceInlining": true,
+    "enableIvy": true
   },
   "exclude": [
     "src/test.ts",
